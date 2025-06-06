@@ -1,0 +1,15 @@
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+
+  .loadMoreBtn {
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+  }
+}

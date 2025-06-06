@@ -1,0 +1,12 @@
+.image {
+  width: calc((1440px - 20px * 3) / 4);
+  cursor: zoom-in;
+  object-fit: cover;
+  height: 230px;
+  transition: transform 0.3s ease;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.05);
+  }
+}
